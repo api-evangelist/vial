@@ -1,7 +1,29 @@
 aid: vial
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vial.png
 name: Vial
-description: Vial is a company surfaced as a portfolio company of general-catalyst and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Vial is a next-generation biotech company advancing first and best-in-class
+  biologics to treat unmet need in Immunology and Inflammation. The company pairs
+  AI-driven drug discovery with automated, technology-enabled clinical trials,
+  working across target discovery (identifying high-value therapeutic targets),
+  molecule design (generating and optimizing molecular candidates), and
+  experimental validation (high-throughput approaches to accelerate development).
+  Its lead pipeline program is an IL-13 x TSLP bi-specific antibody in Phase 1.
+  Vial was originally built as a tech-enabled contract research organization (CRO)
+  focused on reimagining clinical trials, and was backed by General Catalyst. This
+  profile is maintained in the API Evangelist network; as of this enrichment pass
+  Vial publishes no public developer, API, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/vial/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotech
+- Life Sciences
+- Clinical Trials
+- Drug Discovery
+- Immunology
+- Contract Research Organization
+- Artificial Intelligence
 apis: []
+common:
+- type: DomainSecurity
+  url: security/vial-domain-security.yml
+- type: Website
+  url: https://vial.com
+- type: PrivacyPolicy
+  url: https://vial.com/privacy-notice/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
