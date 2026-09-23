@@ -1,0 +1,25 @@
+# Front Door AI Index — vial — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: vial
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: vial.com
+  final_host: vial.com
+  ownership: own
+  owner: vial
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 1
+  host_score: 1
+  density: 3.5
+  words: 286
+  tiers:
+    agentic: 0
+    core: 1
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 1
